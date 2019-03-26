@@ -10,6 +10,12 @@ sRec.setFill("orange")
 sRec.draw(beachWin) 
 
 #Water
-wRec = Rectangle(Point(0, 100), Point(500, 300))
+wRec = Rectangle(Point(0, 100), Point(500, 250))
 wRec.setFill("dark blue")
-wRec.draw(beachWin) 
+wRec.draw(beachWin)
+
+#Sky
+skyRec = Rectangle(Point(0, 250), Point(500, 900))
+skyRec.setFill("light blue")
+skyRec.draw(beachWin) 
+
