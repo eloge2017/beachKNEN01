@@ -14,6 +14,10 @@ sunCir = Oval(Point(150, 400), Point(350, 100))
 sunCir.setFill("yellow")
 sunCir.draw(beachWin)
 
+#Birds  
+birdImage = Image(Point(250,370), "Unknown.png")
+birdImage.draw(beachWin)
+
 #Sand
 sRec = Rectangle(Point(0, 0), Point(500, 100))
 sRec.setFill("orange")
@@ -23,9 +27,3 @@ sRec.draw(beachWin)
 wRec = Rectangle(Point(0, 100), Point(500, 250))
 wRec.setFill("dark blue")
 wRec.draw(beachWin)
-
-
-
-
-
-
