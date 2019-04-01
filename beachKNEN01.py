@@ -44,5 +44,5 @@ def draw_Cir(cX, cY, size, color, Win):
    
 size=70
 for z in range(6):
-    draw_Cir(random.randint(0,500),random.randint(0,500), size, "red", beachWin)
+    draw_Cir(z * 100,200 , size, "red", beachWin)
 
