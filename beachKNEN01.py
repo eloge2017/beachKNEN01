@@ -27,3 +27,12 @@ sRec.draw(beachWin)
 wRec = Rectangle(Point(0, 100), Point(500, 250))
 wRec.setFill("dark blue")
 wRec.draw(beachWin)
+
+#Fish One 
+fishTail = Polygon(Point(430,130), Point(450,150), Point(450,110))
+fishTail.setFill("magenta")
+fishTail.draw(beachWin)
+
+#fishBody = Oval(Point(490,490), Point(450,375))
+#fishBody.setF
+
