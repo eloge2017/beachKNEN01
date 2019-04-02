@@ -31,18 +31,13 @@ wRec.setFill("dark blue")
 wRec.draw(beachWin)
 
 
-import random
-
 def draw_Cir(cX, cY, size, color, Win):
      for i in range (6): 
-        circle = Circle(Point(cX, cY),(size/6) * (i - 6))
-        if i%2 == 0:
-            circle.setFill(color)
-        else:
-            circle.setFill(color_rgb(0,0,0))
+        circle = Circle(Point(cX, cY),(75))
+        circle.setFill(color)
+        circle.setOutline(color)
         circle.draw(Win)
    
 size=70
 for z in range(6):
-    draw_Cir(z * 100,200 , size, "dark blue", beachWin)
-
+    draw_Cir(z * 100,185 , size, "dark blue", beachWin)
