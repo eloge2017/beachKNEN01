@@ -33,6 +33,9 @@ fishTail = Polygon(Point(430,130), Point(450,150), Point(450,110))
 fishTail.setFill("magenta")
 fishTail.draw(beachWin)
 
-#fishBody = Oval(Point(490,490), Point(450,375))
-#fishBody.setF
+fishBody = Oval(Point(415,150), Point(445,110))
+fishBody.setFill(color_rgb(0,175,200))
+fishBody.draw(beachWin)
+
+
 
