@@ -16,17 +16,21 @@ def draw_Cir(cX, cY, size, color, Win):
         circle.setFill(color)
         circle.setOutline(color)
         circle.draw(Win)
+
+def draw_Rcir(cX, cY, size, color, Win):
+      circle = Circle(Point(cX, cY),(2))
+      circle.setFill(color)
+      circle.draw(Win)
         
 #Sky
 draw_Rec(Point(0, 250), Point(900, 500), 50,"light blue", beachWin)
      
-#Sun
+#Sun 
 sunCir = Oval(Point(150, 430), Point(750, 90))
 sunCir.setFill("yellow")
 sunCir.draw(beachWin)
 
-#Sand
-draw_Rec(Point(0, 0), Point(900, 100), 50, "orange", beachWin)
+#sand detail
  
 #Water
 draw_Rec(Point(0, 100), Point(900, 250), 50, "dark blue", beachWin)
@@ -34,3 +38,8 @@ draw_Rec(Point(0, 100), Point(900, 250), 50, "dark blue", beachWin)
 size=70
 for z in range(10):
     draw_Cir(z * 100,185 , size, "dark blue", beachWin)
+
+#Sand
+draw_Rec(Point(0, 0), Point(900, 100), 50, "orange", beachWin)
+#sand detail
+draw_Rcir(700, 50, size, "black", beachWin)
