@@ -44,7 +44,10 @@ wRec = Rectangle(Point(0, 100), Point(900, 250))
 wRec.setFill("dark blue")
 wRec.draw(beachWin)
 
-draw_Fish(700,150,"magenta","red","black",beachWin)
+
+#draw the fish 
+draw_Fish(750,150,"magenta","red","black",beachWin)
 draw_Fish(100,200,"yellow","pink","black",beachWin)
-draw_Fish(400,175,"blue","orange","black",beachWin)
-    
+draw_Fish(400,175,"pink","orange","black",beachWin)
+draw_Fish(300,210,"blue","light green","black",beachWin)
+draw_Fish(550,205,"light blue","yellow","black",beachWin)
